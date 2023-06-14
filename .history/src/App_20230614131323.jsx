@@ -3,8 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './components/Hero'
+import { logo } from './assets/logo.svg'
 
 function App() {
+  const [count, setCount] = useState(0)
 
   return (
     <main>
@@ -13,7 +15,7 @@ function App() {
       </div>
 
       <div className="app">
-        <Hero />
+        <Hero />DRF
       </div>
     </main>
   )

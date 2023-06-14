@@ -5,15 +5,16 @@ import './App.css'
 import Hero from './components/Hero'
 
 function App() {
+  const [count, setCount] = useState(0)
 
   return (
     <main>
       <div className="main">
-        <div className="gradient" />
+        <div className='gradient'/>
       </div>
 
-      <div className="app">
-        <Hero />
+      <div className='app'>
+        <Hero/>
       </div>
     </main>
   )

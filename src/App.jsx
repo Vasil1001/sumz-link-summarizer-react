@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './components/Hero'
+import Demo from './components/Demo'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
 
       <div className="app">
         <Hero />
+        <Demo />
       </div>
     </main>
   )

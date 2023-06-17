@@ -86,7 +86,7 @@
 }
 
 .desc {
-  @apply mt-5 max-w-2xl text-center text-lg text-gray-800 sm:text-xl;
+  @apply mt-5 max-w-2xl text-center text-lg text-gray-600 sm:text-lg;
 }
 
 .url_input {
